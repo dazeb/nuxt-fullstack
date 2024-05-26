@@ -1,0 +1,10 @@
+@import url('./primevue.css');
+@import url('./shadcn.css');
+
+html {
+  --at-apply: 'bg-gray-300 text-surface-600';
+}
+
+html.dark {
+  --at-apply: 'bg-gray-700 text-surface-200';
+}
